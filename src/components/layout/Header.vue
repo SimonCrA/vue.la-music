@@ -11,7 +11,7 @@
             router-link.navbar-item(to="about") Nosotros
     .hero-body
       .container.has-text-centered
-        h1.title Platzi Music
+        h1.title Vue.la Music
         h2.subtitle Canciones que estan VUEnisimas
         pm-player
 </template>
