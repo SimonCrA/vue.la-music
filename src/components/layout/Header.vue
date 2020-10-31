@@ -9,7 +9,7 @@
           .navbar-right.navbar-menu
             a.navbar-item(@click="selectLang('en')") EN
             a.navbar-item(@click="selectLang('es')") ES
-            router-link.navbar-item(to="search") {{ $t('search') }}
+            router-link.navbar-item(:to="{ name: 'search' }") {{ $t('search') }}
             router-link.navbar-item(to="about") {{ $t('about') }}
     .hero-body
       .container.has-text-centered
