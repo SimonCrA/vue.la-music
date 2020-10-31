@@ -9,6 +9,7 @@ import blur from '@/directives/blur.js'
 
 import routes from '@/routes.js'
 import store from '@/store.js'
+import i18n from '@/i18n.js'
 
 Vue.config.productionTip = false
 
@@ -25,5 +26,6 @@ const router = new VueRouter({
 new Vue({
   render: h => h(App),
   router,
-  store
+  store,
+  i18n
 }).$mount('#app')
